@@ -1,0 +1,432 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+:root {
+	--m400: 'Montserrat';
+	--m700: 'Montserrat';
+	--dark: #323232;
+}
+
+.wrapper {
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	border-bottom: 2px solid var(--dark);
+}
+
+.logo a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: var(--dark);
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+nav ul li a {
+	color: var(--dark);
+	font-family: var(--m400);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.94px;
+	text-align: left;
+}
+
+.nav_content {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.nav_content a {
+	font-family: var(--m400);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.94px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 0 0 0;
+}
+
+.banner_content {
+	width: 526px;
+	height: 294px;
+	background: #e1e1e1;
+	border-radius: 10px;
+}
+
+.banner_content:hover {
+	box-shadow: 6px 6px 15px 0px #8484844d;
+}
+
+.banner_content_sale,
+.banner_item_sale {
+	width: 123px;
+	height: 49px;
+	background: #323232;
+	margin: 16px 0 0 16px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_content_sale h1,
+.banner_item_sale h1 {
+	color: #fff;
+	font-family: var(--m400);
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.banner_item_contents_image {
+	display: flex;
+	align-items: center;
+	margin: 8px 0 0 119px;
+}
+
+.banner_item {
+	width: 746px;
+	height: 618px;
+	background: #e1e1e1;
+	margin: 16px 0 0 0;
+	border-radius: 10px;
+}
+
+.banner_item:hover {
+	box-shadow: 6px 6px 15px 0px #8484844d;
+}
+
+.banner_item_contents img {
+}
+
+.banner_item_contents {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	margin: 188px 0 0 110px;
+}
+
+.banner_item_contents_texts h1,
+.banner_item_contents_texts h3 {
+	font-family: var(--m400);
+	font-size: 15px;
+	font-weight: 400;
+	color: var(--dark);
+}
+
+.banner_item_contents_texts h2 {
+	font-family: var(--m700);
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 16.84px;
+	text-align: left;
+	color: var(--dark);
+	margin: 29px 0 29px 0;
+}
+
+main {
+	padding: 30px;
+}
+
+.lider_contents {
+}
+
+.lider_title h1 {
+	text-align: center;
+	height: 50px;
+	border-bottom: 2px solid var(--dark);
+}
+
+.hours {
+	padding: 40px 0 0 0;
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+}
+
+.hours_info {
+	width: 416px;
+	height: 485px;
+	background: #e1e1e1;
+	border-radius: 10px;
+}
+
+.hours_sale {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hours_sale_title {
+	width: 120px;
+	height: 50px;
+	background: #323232;
+	margin: 16px 0 0 16px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hours_sale_title h1 {
+	color: #fff;
+	font-family: var(--m400);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.hours_sale_image {
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+	margin: 20px 19px 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.hours_image {
+	display: flex;
+	gap: 38px;
+	margin: 2px 19px 0 109px;
+}
+
+.hours_image_korzina {
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	margin: 18px 0 0 0;
+	cursor: pointer;
+}
+
+.hours_text {
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+.hours_text h1,
+.hours_text h3 {
+	font-family: var(--m400);
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--dark);
+}
+
+.hours_text h2 {
+	font-family: var(--m700);
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--dark);
+	margin: 20px 20px;
+}
+
+.yeshyo h1 {
+	margin: 60px 0 0 0;
+	text-align: center;
+	color: #323232;
+	font-family: var(--m400);
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.news {
+	padding: 40px 0;
+}
+
+.news_title h1 {
+	text-align: center;
+	font-family: var(--m400);
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 2.200000047683716px;
+	border-bottom: 2px solid var(--dark);
+	height: 50px;
+}
+
+.news_contents {
+	padding: 40px 0 0 0;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.yaponskiy_hours {
+	width: 636px;
+	height: 470px;
+	background-image: url('./images/Rectangle 89.png');
+	padding: 20px 0 0 0;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.yaponskiy_hours:nth-of-type(2) {
+	background-image: url('./images/Rectangle 90.png');
+}
+
+.yaponskiy_hours::after {
+	content: '';
+	background: #323232b2;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.yaponskiy_hours_sovet {
+	width: 150px;
+	height: 50px;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+
+.yaponskiy_hours_sovet h5 {
+	font-family: var(--m400);
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--dark);
+}
+
+.yaponskiy_hours h1 {
+	width: 466px;
+	font-family: var(--m700);
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+	margin: 40px 0 0 60px;
+}
+
+.yaponskiy_hours p {
+	width: 462px;
+	font-family: var(--m400);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #fff;
+	margin: 30px 0 0 64px;
+}
+
+.soat {
+	display: flex;
+	color: #fff;
+	margin: 100px 0 0 60px;
+	gap: 10px;
+}
+
+footer {
+	background: #323232;
+	height: 500px;
+	padding: 100px 0 0 0;
+}
+
+.footer_items {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.totembo h1,
+.tovars h1 {
+	font-family: var(--m700);
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 0 40px 0;
+}
+
+.totembo ul,
+.tovars ul {
+	list-style: none;
+}
+
+.totembo ul li a,
+.tovars ul li a {
+	font-family: var(--m400);
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	margin: 15px 0 0 0;
+	display: block;
+}
+
+.kontakts h1 {
+	font-family: var(--m400);
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0 0 40px 0;
+	color: #fff;
+}
+
+.kontakts h2 {
+}
+
+.kontakts h2,
+.kontakts h3 {
+	font-family: var(--m400);
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.kontakts_kontakt {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 15px 0 15px 0;
+}
+
+.kontakts h4 {
+	font-family: var(--m400);
+	font-size: 18px;
+	font-weight: 400;
+	margin: 40px 0 0 0;
+	color: #fff;
+}
+
+.kontakts_social_media {
+	display: flex;
+	align-items: center;
+	gap: 26px;
+	margin: 20px 0 0 0;
+}
